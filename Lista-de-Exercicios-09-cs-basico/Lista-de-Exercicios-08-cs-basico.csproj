@@ -7,19 +7,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="exercicio09.cs" />
-    <Compile Include="exercicio08.cs" />
-    <Compile Include="exercicio07.cs" />
-    <Compile Include="exercicio06.cs" />
-    <Compile Include="exercicio05.cs" />
-    <Compile Include="exercicio04.cs" />
-    <Compile Include="exercicio03.cs" />
-    <Compile Include="exercicio02.cs" />
-    <Compile Include="exercicio10.cs" />
-    <Compile Include="exercicio01.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
 
