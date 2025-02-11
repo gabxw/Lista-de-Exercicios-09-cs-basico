@@ -10,7 +10,12 @@ namespace Lista_de_Exercicios_08_cs_basico
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite um número inteiro: ");
+            
+            int[] vetor = {3,7,9,4,5};
+            for(int i = 0; i < vetor.Length; i++){
+                Console.Write(vetor[i] + " ");
+            }
+            
         }
     }
 }
