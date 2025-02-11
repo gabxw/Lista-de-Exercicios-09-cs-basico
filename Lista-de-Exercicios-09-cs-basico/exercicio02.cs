@@ -8,6 +8,12 @@ namespace Lista_de_Exercicios_08_cs_basico
     {
         public string Nome { get; set; } // Propriedade para o nome
         public int[] Notas { get; set; } // Propriedade para as notas
+
+        public Pessoa()
+        {
+            Nome = string.Empty;
+            Notas = Array.Empty<int>();
+        }
     }
 
     internal class Exercicio02
