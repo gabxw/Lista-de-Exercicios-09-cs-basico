@@ -1,5 +1,6 @@
 
-<PropertyGroup>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>Lista_de_Exercicios_08_cs_basico</RootNamespace>
@@ -10,3 +11,4 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+</Project>
