@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lista_de_Exercicios_08_cs_basico
 {
-    internal class exercicio01
+    internal class Exercicio01
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Digite um número inteiro: ");
         }
     }
 }
