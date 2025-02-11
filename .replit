@@ -1,8 +1,9 @@
+
 modules = ["dotnet-7.0"]
-run = "dotnet run"
+run = "cd Lista-de-Exercicios-09-cs-basico && dotnet run"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "dotnet run"]
+run = ["sh", "-c", "cd Lista-de-Exercicios-09-cs-basico && dotnet run"]
