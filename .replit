@@ -1,9 +1,20 @@
 
 modules = ["dotnet-7.0"]
-run = "cd Lista-de-Exercicios-09-cs-basico && dotnet run"
+run = "cd Lista-de-Exercicios-09-cs-basico/exercicio02/exercicio02.cs && dotnet run"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "cd Lista-de-Exercicios-09-cs-basico && dotnet run"]
+run = ["sh", "-c", "cd Lista-de-Exercicios-09-cs-basico/exercicio02/exercicio02.cs && dotnet run"]
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+author = 34350436
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd Lista-de-Exercicios-09-cs-basico && dotnet run --project Lista-de-Exercicios-08-cs-basico.csproj"
