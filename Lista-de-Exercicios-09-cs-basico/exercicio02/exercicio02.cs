@@ -11,7 +11,9 @@ namespace Lista_de_Exercicios_08_cs_basico
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("olá");
+            Aluno gabriel = new Aluno("gabriel", 2);
+            
+            Console.WriteLine($"Aluno 2: Nome = {gabriel.Nome}, Nota = {gabriel.Nota}");
         }
     }
 }

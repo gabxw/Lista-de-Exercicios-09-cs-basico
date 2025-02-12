@@ -1,16 +1,23 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lista_de_Exercicios_08_cs_basico
 {
-    internal class Exercicio02
+    class Aluno
     {
-        static void Main(string[] args)
+        // Properties
+        public string Nome { get; set; }
+        public double Nota { get; set; }
+
+        // Constructor
+        public Aluno(string nome, double nota)
         {
-            Console.WriteLine("olá");
+            Nome = nome;
+            Nota = nota;
+        }
+
+        // Default Constructor
+        public Aluno()
+        {
         }
     }
 }
