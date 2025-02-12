@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lista_de_Exercicios_08_cs_basico
 {
-    internal class Main
+    internal class Program
     {
         static void Main(string[] args)
         {
